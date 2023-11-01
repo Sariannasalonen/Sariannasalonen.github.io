@@ -1,0 +1,37 @@
+body {background-color: antiquewhite;
+}
+
+h1 {color: coral;
+
+}
+
+h2 {color: chocolate; }
+
+table, tr, td {background-color: lightpink;}
+
+table {
+    border-style: 0px;
+    border-collapse: collapse;
+    margin: 20px;
+    border: 3px solid white;
+    ;
+}
+td {
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-right: 10px;
+ }
+
+.flex-item {
+    background-color: darkseagreen;
+    height: 90px;
+    width: 800px;
+}
+.script {
+    function setClass() 
+        var element= document.getElementById("guid3") ;
+        element.classList.toggle("jsharkkatyyli") ;
+        }	
+.jsharkkatyyli {
+    display: none;
+}
